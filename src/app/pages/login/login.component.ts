@@ -17,7 +17,7 @@ password;
 login(){
 this.auth.login(this.email,this.password).then(res=>{
   console.log("loged in");
-  this.router.navigate(['dashboard]']);
+  this.router.navigate(['/dashboard]']);
   
 })
 }
