@@ -1,0 +1,13 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+<div class="wrapper">
+<form action="#" method="post">
+  
+<input type="text" name="email" placeholder="Enter Email" [(ngModel)]="email" required><br>
+<input type="password" name="password" placeholder="password" [(ngModel)]="password" required><br>
+<input type="submit" name="submit" value="login" (click)="login()" >
+<input type="submit" name="submit" value="Register" routerLink="/signup" >
+</form>
+</div>
+<p> Login Form</p>
+</body>

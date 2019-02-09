@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<body>
+		<div class="form">
+			
+			<h1> Signup Here!</h1>
+
+			<form action="" method="get" accept-charset="utf-8">
+				<input type="text"  name="name"  placeholder="name" [(ngModel)]="name" [ngModelOptions]="{standalone: true}"><br>
+				<input type="text"  name="email"  placeholder="Email" [(ngModel)]="email" [ngModelOptions]="{standalone: true}"><br>
+				<input type="password"  name="passsword"  placeholder="password" [(ngModel)]="password" [ngModelOptions]="{standalone: true}"><br>
+		
+				
+				<br>
+				<!-- <select  name="countries" class="datalist">
+					<datalist id="countries">
+					<option class="selp" value="none">Select Your Country</option>
+					<option class="selq" value="India">India</option>
+					<option class="selq" value="Australia">Australia</option>
+					<option class="selq" value="new zealand">new zealand</option>
+					<option class="selq" value="England">England</option>
+					<option class="selq" value="America">America</option>
+					<option class="selq" value="China">China</option>
+				</datalist></select> -->
+
+
+				<button (click)="signup()">Sign Up</button>
+				<h3>Already have account ? <a class="aclk" routerLink="/login">Click here!</a></h3>
+			</form>
+		</div>
+	</body>
+</html>
