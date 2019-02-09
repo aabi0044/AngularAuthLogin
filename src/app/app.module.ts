@@ -29,6 +29,7 @@ import{FormsModule} from '@angular/forms';
      
       {path:'login',component:LoginComponent},
       {path:'signup',component:SignupComponent},
+      {path:'dashboard',component:DashboardComponent},
       
   
     ])
